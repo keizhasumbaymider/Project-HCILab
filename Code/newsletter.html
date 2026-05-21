@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Newsletter Page</title>
+</head>
+<body>
+    <nav>
+    <div class="navbar">
+      <img src="/Photos/fd-removebg-preview.png" alt="Logo">
+    </div>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="directory.html">Directory</a></li>
+    </ul>
+  </nav>
+
+  <section class="news-section">
+    <h2>News</h2>
+    <div class="news-slider">
+        <div class="news-slides">
+            <div class="news-card">
+                <img src="/Photos/news1.jpg" alt="">
+                <div class="news-content">
+                    <h3>FontDale Mall Officially Opens Its Doors to the Public</h3>
+                    <p>FontDale Mall is officially open as a new lifestyle destination, offering a wide range of shopping, dining, 
+                        and entertainment in a modern space. The grand opening was celebrated with special promotions, live performances, and exciting activities, attracting enthusiastic visitors.
+                        Don’t miss out on exclusive deals and unforgettable experiences at FontDale Mall!</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="/Photos/news2.jpg" alt="">
+                <div class="news-content">
+                    <h3>FontDale Mall Wins Best Lifestyle Mall Award 2026</h3>
+                    <p>FontDale Mall has officially won the Best Lifestyle Mall Award 2026 for its modern design, premium shopping experience, and exciting community events. Since opening in 2025, 
+                        FontDale has become one of the city’s favorite lifestyle destinations.
+
+                        To celebrate the achievement, FontDale will hold special promotions and entertainment events for visitors throughout the week.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-navigation">
+        <button class="news-prev">&lt;</button>
+        <span class="news-number">1</span>
+        <button class="news-next">&gt;</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Contact Information</h4>
+          <p>Phone: (123) 456-7890</p>
+          <p>Email: info@fontdale.com</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a><i class="fab fa-facebook-f"></i></a>
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-instagram"></i></a>
+            <a><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Location</h4>
+          <p>Jl. Adi Sucipto Mega Commercial Complex Blok C No. 15, 
+            Kecamatan Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+            <p>Operational Hours: 10:00 AM - 10:00 PM</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <p>&copy; 2026 FontDale. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="newsletter-popup" id="newsletterPopup">
+    <div class="popup-content">
+        <button class="close-popup" id="closePopup">&times;</button>
+        <h2>Join Our Newsletter</h2>
+        <p>Stay updated with the lastest events, exclusive promotions, and new arrivals at FontDale!</p>
+        <form>
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <input type="text" placeholder="Enter your phone number">
+            <select>
+                <option disabled selected>Select your interests</option>
+                <option>Fashion</option>
+                <option>Food & Beverage</option>
+                <option>Entertainment</option>
+                <option>Beauty</option>
+                <option>Sports</option>
+            </select>
+        </form>
+        <h4>Frequencies :</h4>
+        <form>
+            <label><input type="radio" name="freq">Rarely</label>
+            <label><input type="radio" name="freq">Weekly</label>
+            <label><input type="radio" name="freq">Monthly</label>
+            <button type="submit">JOIN</button>
+        </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <div class="page-transition"></div>
+</body>
+</html>
